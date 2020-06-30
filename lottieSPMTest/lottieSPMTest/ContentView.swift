@@ -1,23 +1,16 @@
 //
 //  ContentView.swift
-//  lottieTest
+//  lottieSPMTest
 //
-//  Created by Tom on 23/6/2020.
+//  Created by Tom on 30/6/2020.
 //  Copyright © 2020 Tom. All rights reserved.
 //
 
 import SwiftUI
 
 struct ContentView: View {
-    @State var play = 0
-    
     var body: some View {
-        VStack{
-            LottieView(name: "right-check", play: $play)
-                .frame(width:100, height:100)
-            Button("Play"){ self.play += 1 }
-        }
-
+        Text("Hello, World!")
     }
 }
 

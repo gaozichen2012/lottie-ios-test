@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,9 @@
 		D01C6DB824A24A0700C4B796 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D01C6DB724A24A0700C4B796 /* Assets.xcassets */; };
 		D01C6DBB24A24A0700C4B796 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D01C6DBA24A24A0700C4B796 /* Preview Assets.xcassets */; };
 		D01C6DBE24A24A0800C4B796 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D01C6DBC24A24A0800C4B796 /* LaunchScreen.storyboard */; };
+		D08F0D3524AB88E700EBF7C4 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08F0D3424AB88E700EBF7C4 /* LottieView.swift */; };
+		D08F0D3724AB8A8D00EBF7C4 /* right-check.json in Resources */ = {isa = PBXBuildFile; fileRef = D08F0D3624AB8A8C00EBF7C4 /* right-check.json */; };
+		D08F0D3B24AB8C7100EBF7C4 /* pride-love.json in Resources */ = {isa = PBXBuildFile; fileRef = D08F0D3A24AB8C7000EBF7C4 /* pride-love.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		D01C6DBA24A24A0700C4B796 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D01C6DBD24A24A0800C4B796 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D01C6DBF24A24A0800C4B796 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D08F0D3424AB88E700EBF7C4 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		D08F0D3624AB8A8C00EBF7C4 /* right-check.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "right-check.json"; sourceTree = "<group>"; };
+		D08F0D3A24AB8C7000EBF7C4 /* pride-love.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pride-love.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +54,6 @@
 				3B4173A4E796D31A5D28666D /* Pods-lottieTest.debug.xcconfig */,
 				6B80096A8A0FDA4B35C62CE6 /* Pods-lottieTest.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -76,6 +81,9 @@
 				D01C6DB124A249F800C4B796 /* AppDelegate.swift */,
 				D01C6DB324A249F800C4B796 /* SceneDelegate.swift */,
 				D01C6DB524A249F800C4B796 /* ContentView.swift */,
+				D08F0D3424AB88E700EBF7C4 /* LottieView.swift */,
+				D08F0D3624AB8A8C00EBF7C4 /* right-check.json */,
+				D08F0D3A24AB8C7000EBF7C4 /* pride-love.json */,
 				D01C6DB724A24A0700C4B796 /* Assets.xcassets */,
 				D01C6DBC24A24A0800C4B796 /* LaunchScreen.storyboard */,
 				D01C6DBF24A24A0800C4B796 /* Info.plist */,
@@ -161,8 +169,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D01C6DBE24A24A0800C4B796 /* LaunchScreen.storyboard in Resources */,
+				D08F0D3724AB8A8D00EBF7C4 /* right-check.json in Resources */,
 				D01C6DBB24A24A0700C4B796 /* Preview Assets.xcassets in Resources */,
 				D01C6DB824A24A0700C4B796 /* Assets.xcassets in Resources */,
+				D08F0D3B24AB8C7100EBF7C4 /* pride-love.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,6 +228,7 @@
 				D01C6DB224A249F800C4B796 /* AppDelegate.swift in Sources */,
 				D01C6DB424A249F800C4B796 /* SceneDelegate.swift in Sources */,
 				D01C6DB624A249F800C4B796 /* ContentView.swift in Sources */,
+				D08F0D3524AB88E700EBF7C4 /* LottieView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
