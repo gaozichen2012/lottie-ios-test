@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0B9C2B05A03E1CC1B6E82DF5 /* Pods_lottieTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6514B2E040DE08F0BF77A67A /* Pods_lottieTest.framework */; };
+		D00A033B24AE26FF00D17F19 /* notebook.json in Resources */ = {isa = PBXBuildFile; fileRef = D00A033A24AE26FE00D17F19 /* notebook.json */; };
 		D01C6DB224A249F800C4B796 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01C6DB124A249F800C4B796 /* AppDelegate.swift */; };
 		D01C6DB424A249F800C4B796 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01C6DB324A249F800C4B796 /* SceneDelegate.swift */; };
 		D01C6DB624A249F800C4B796 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01C6DB524A249F800C4B796 /* ContentView.swift */; };
@@ -17,12 +18,14 @@
 		D08F0D3524AB88E700EBF7C4 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08F0D3424AB88E700EBF7C4 /* LottieView.swift */; };
 		D08F0D3724AB8A8D00EBF7C4 /* right-check.json in Resources */ = {isa = PBXBuildFile; fileRef = D08F0D3624AB8A8C00EBF7C4 /* right-check.json */; };
 		D08F0D3B24AB8C7100EBF7C4 /* pride-love.json in Resources */ = {isa = PBXBuildFile; fileRef = D08F0D3A24AB8C7000EBF7C4 /* pride-love.json */; };
+		D0B4B89424AE2991001A7C6F /* love.json in Resources */ = {isa = PBXBuildFile; fileRef = D0B4B89324AE2990001A7C6F /* love.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3B4173A4E796D31A5D28666D /* Pods-lottieTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lottieTest.debug.xcconfig"; path = "Target Support Files/Pods-lottieTest/Pods-lottieTest.debug.xcconfig"; sourceTree = "<group>"; };
 		6514B2E040DE08F0BF77A67A /* Pods_lottieTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lottieTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B80096A8A0FDA4B35C62CE6 /* Pods-lottieTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lottieTest.release.xcconfig"; path = "Target Support Files/Pods-lottieTest/Pods-lottieTest.release.xcconfig"; sourceTree = "<group>"; };
+		D00A033A24AE26FE00D17F19 /* notebook.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = notebook.json; sourceTree = "<group>"; };
 		D01C6DAE24A249F700C4B796 /* lottieTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lottieTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D01C6DB124A249F800C4B796 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D01C6DB324A249F800C4B796 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -34,6 +37,7 @@
 		D08F0D3424AB88E700EBF7C4 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
 		D08F0D3624AB8A8C00EBF7C4 /* right-check.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "right-check.json"; sourceTree = "<group>"; };
 		D08F0D3A24AB8C7000EBF7C4 /* pride-love.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pride-love.json"; sourceTree = "<group>"; };
+		D0B4B89324AE2990001A7C6F /* love.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = love.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,8 @@
 				D08F0D3424AB88E700EBF7C4 /* LottieView.swift */,
 				D08F0D3624AB8A8C00EBF7C4 /* right-check.json */,
 				D08F0D3A24AB8C7000EBF7C4 /* pride-love.json */,
+				D00A033A24AE26FE00D17F19 /* notebook.json */,
+				D0B4B89324AE2990001A7C6F /* love.json */,
 				D01C6DB724A24A0700C4B796 /* Assets.xcassets */,
 				D01C6DBC24A24A0800C4B796 /* LaunchScreen.storyboard */,
 				D01C6DBF24A24A0800C4B796 /* Info.plist */,
@@ -169,7 +175,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D01C6DBE24A24A0800C4B796 /* LaunchScreen.storyboard in Resources */,
+				D0B4B89424AE2991001A7C6F /* love.json in Resources */,
 				D08F0D3724AB8A8D00EBF7C4 /* right-check.json in Resources */,
+				D00A033B24AE26FF00D17F19 /* notebook.json in Resources */,
 				D01C6DBB24A24A0700C4B796 /* Preview Assets.xcassets in Resources */,
 				D01C6DB824A24A0700C4B796 /* Assets.xcassets in Resources */,
 				D08F0D3B24AB8C7100EBF7C4 /* pride-love.json in Resources */,

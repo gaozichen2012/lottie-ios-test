@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  lottieSPMTest
 //
-//  Created by Tom on 30/6/2020.
+//  Created by Tom on 2/7/2020.
 //  Copyright © 2020 Tom. All rights reserved.
 //
 
