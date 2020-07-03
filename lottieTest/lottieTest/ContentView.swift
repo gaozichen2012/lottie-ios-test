@@ -13,6 +13,7 @@ struct ContentView: View {
     
     var body: some View {
         VStack{
+            //向LottieView函数传入"love.json"动画
             LottieView(name: "love", play: $play)
                 .frame(width:100, height:100)
             Button("Play"){ self.play += 1 }
